@@ -6,10 +6,9 @@ public class requestElevator extends elevator {
 		int status,elevatorPosition;
 		status = getStatus();
 		elevatorPosition = callElevator(currentFloor,status);
-		if(elevatorPosition == -1){
-		System.out.println("Elevator at " + currentFloor);
-		}else{
-			System.out.println("Elevator at " + elevatorPosition);
-		}
+		if(elevatorPosition == -1)
+		System.out.println("Elevator at " + elevatorPosition);
+		System.out.println("Opening Doors");
+
 	}
 }

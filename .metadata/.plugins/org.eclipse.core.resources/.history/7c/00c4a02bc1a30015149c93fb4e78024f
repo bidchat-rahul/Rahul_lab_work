@@ -11,5 +11,6 @@ public class requestElevator extends elevator {
 		}else{
 			System.out.println("Elevator at " + elevatorPosition);
 		}
+		door.openDoor();
 	}
 }

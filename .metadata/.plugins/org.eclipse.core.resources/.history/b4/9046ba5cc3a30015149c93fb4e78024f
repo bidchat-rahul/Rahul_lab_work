@@ -17,8 +17,9 @@ public class working {
 			curtFloor = Panel.outSidePanel();
 			el1.elevatorCall(curtFloor);
 			
-			reqFlor=Panel.inSidePanel();
-			
+			System.out.println("\nInside Panel");
+			System.out.println("Enter The Floor No");
+			reqFlor = readnum.nextInt();
 			status=el1.getStatus();
 		
 			System.out.println("Elevator at " +el1.callElevator(reqFlor,status));

@@ -8,8 +8,11 @@ public class requestElevator extends elevator {
 		elevatorPosition = callElevator(currentFloor,status);
 		if(elevatorPosition == -1){
 		System.out.println("Elevator at " + currentFloor);
+		System.out.println("Opening Doors");
 		}else{
 			System.out.println("Elevator at " + elevatorPosition);
+			System.out.println("Opening Doors");
 		}
+
 	}
 }

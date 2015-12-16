@@ -1,0 +1,15 @@
+package elevatorStimulation;
+
+import java.util.Scanner;
+
+public class panel {
+
+	public int outSidePanel(){
+		int curtFloor;
+		Scanner readnum = new Scanner(System.in);
+		System.out.println("Outside Panel");
+		System.out.print("Enter your current floor ");
+		curtFloor = readnum.nextInt();
+		return curtFloor;
+	}
+}
