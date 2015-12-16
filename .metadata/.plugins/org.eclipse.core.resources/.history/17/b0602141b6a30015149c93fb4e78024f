@@ -1,0 +1,11 @@
+package elevatorPkg;
+
+public class CallPanel {
+
+	public CallPanel(int FloorNo) {
+		// TODO Auto-generated constructor stub
+		
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package elevatorStimulation;
+
+public class DisplyPanel {
+	
+	public void printElevatorLocation(int floor){
+		System.out.println("");
+	}
+	
+
+}

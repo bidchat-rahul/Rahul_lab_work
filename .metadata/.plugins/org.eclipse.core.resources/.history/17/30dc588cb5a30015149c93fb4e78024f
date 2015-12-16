@@ -1,0 +1,10 @@
+package elevatorPkg;
+
+public class DisplyPanel extends ElevatorControler{
+	int toDisply = super.getCurrentLocation();
+	
+	
+	
+	
+
+}

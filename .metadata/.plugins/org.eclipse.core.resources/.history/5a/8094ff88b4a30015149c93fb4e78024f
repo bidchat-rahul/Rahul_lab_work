@@ -1,0 +1,11 @@
+package elevatorPkg;
+
+public class DisplyPanel {
+	int toDisply;
+
+	ElevatorControler elevatorControl = new ElevatorControler();
+	
+	
+	toDisply=elevatorControl.getCurrentLocation();
+	
+}
