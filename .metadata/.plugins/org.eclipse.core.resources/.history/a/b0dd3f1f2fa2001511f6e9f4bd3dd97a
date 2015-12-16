@@ -1,0 +1,40 @@
+package elevatorStimulation;
+
+public class elevator {
+
+	private int status=0;
+	public int callElevator(int reqFloor) {
+		
+		for(int i=0;i<=reqFloor;i++){
+			status=i;
+		}
+		return status;
+	}
+	public int callElevator(int reqFloor, int status ) {
+		if(status==0){
+			callElevator(reqFloor);
+			return this.status;
+		}else
+		{
+			if(status<reqFloor){
+				for(int i=status;i<=reqFloor;i++){
+					this.status=i;
+				}
+				return this.status;
+			}
+			else{
+				for(int i=status;i>=reqFloor;i--){
+					this.status=i;
+				}
+				return this.status;
+				
+			}
+		}
+	}
+	public int getStatus() {
+		return status;
+	}
+	public void setStatus(int status) {
+		this.status = status;
+	}
+}

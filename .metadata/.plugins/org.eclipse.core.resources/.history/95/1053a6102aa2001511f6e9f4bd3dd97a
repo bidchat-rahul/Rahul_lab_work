@@ -1,0 +1,22 @@
+package elevatorStimulation;
+
+public class requestElevator extends elevator {
+
+	public void elevatorCall(int currentFloor){
+		if(currentFloor <= status){
+			if(status==0){
+				callElevator(currentFloor);
+				
+			}else
+			{
+				if(status<currentFloor){
+					callElevator(currentFloor,status,true);	
+				}else{
+					callElevator(currentFloor,status,false);	
+				}
+				
+			}	
+			
+		}
+	}
+}

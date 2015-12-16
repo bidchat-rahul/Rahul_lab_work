@@ -1,0 +1,11 @@
+package elevatorStimulation;
+
+public class working {
+
+	public static void main(String[] args) {
+
+		elevator el1 =new elevator();
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package elevatorStimulation;
+
+public class requestElevator extends elevator {
+
+	public void elevatorCall(int currentFloor){
+		
+	}
+}

@@ -1,0 +1,11 @@
+package elevatorStimulation;
+
+public class elevator {
+	int status=0;
+	public void callElevator(){
+		System.out.println("Working");
+	}
+	
+	
+
+}

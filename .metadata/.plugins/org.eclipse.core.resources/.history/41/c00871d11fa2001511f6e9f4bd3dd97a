@@ -1,0 +1,17 @@
+package elevatorStimulation;
+
+import java.util.Scanner;
+
+public class working {
+
+	public static void main(String[] args) throws InterruptedException {
+		int reqFlor;
+		Scanner readnum = new Scanner(System.in);
+		elevator el1 =new elevator();
+		System.out.println("Enter The Floor No");
+		reqFlor = readnum.nextInt();
+		el1.callElevator(reqFlor);
+
+	}
+
+}

@@ -1,0 +1,43 @@
+package elevatorStimulation;
+
+public class elevator {
+
+	int status=0;
+	int floor = 5;
+	public void callElevator(int reqFloor) {
+		
+		for(int i=0;i<=reqFloor;i++){
+			status=i;
+			System.out.println("we are At "+(status)+" Floor");
+		}
+		System.out.println("Openning Doors");
+	}
+	public void callElevator(int reqFloor, int status,Boolean way ) {
+		if(way){
+			for(int i=status;i<=reqFloor;i++){
+				this.status=i;
+				System.out.println("we are At "+(status)+" Floor");
+			}
+			System.out.println("Openning Doors");
+			
+		}
+		else{
+			for(int i=status;i>=reqFloor;i--){
+				this.status=i;
+				System.out.println("we are At "+(status)+" Floor");
+			}
+			System.out.println("Openning Doors");
+		}
+
+	}
+	public int getStatus() {
+		return status;
+	}
+	public void setStatus(int status) {
+		this.status = status;
+	}
+	
+	
+	
+
+}
