@@ -44,7 +44,6 @@ public class workingMain {
 		stackLink.addS(5);
 		stackLink.disply();
 		stackLink.removeS();
-		stackLink.disply();
 	}
 
 }

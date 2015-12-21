@@ -35,16 +35,6 @@ public class workingMain {
 		
 		stackList.popOut();
 		stackList.disply();
-		
-		
-		stackUsingLinkList stackLink = new stackUsingLinkList();
-		System.out.println("-------Stack implementation using link list------");
-		stackLink.disply();
-		stackLink.addS(4);
-		stackLink.addS(5);
-		stackLink.disply();
-		stackLink.removeS();
-		stackLink.disply();
 	}
 
 }

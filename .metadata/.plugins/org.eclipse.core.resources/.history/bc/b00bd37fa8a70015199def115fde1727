@@ -43,8 +43,6 @@ public class workingMain {
 		stackLink.addS(4);
 		stackLink.addS(5);
 		stackLink.disply();
-		stackLink.removeS();
-		stackLink.disply();
 	}
 
 }
