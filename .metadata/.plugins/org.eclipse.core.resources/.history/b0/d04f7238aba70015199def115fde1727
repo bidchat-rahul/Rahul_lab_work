@@ -36,10 +36,7 @@ public class workingMain {
 		stackList.pushIn(9);
 		stackList.disply();
 		
-		completed =stackList.popOut();
-		if(completed==false){
-			System.out.println("Stack is empty");
-		}
+		stackList.popOut();
 		stackList.disply();
 		
 		

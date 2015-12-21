@@ -21,10 +21,7 @@ public class workingMain {
 			System.out.println("Stack is full");
 		}
 		stackI.displyStack();
-		completed=stackI.popS();
-		if(completed==false){
-			System.out.println("Stack is empty");
-		}
+		stackI.popS();
 		stackI.displyStack();
 		
 		stackUsingList stackList = new stackUsingList();
@@ -36,10 +33,7 @@ public class workingMain {
 		stackList.pushIn(9);
 		stackList.disply();
 		
-		completed =stackList.popOut();
-		if(completed==false){
-			System.out.println("Stack is empty");
-		}
+		stackList.popOut();
 		stackList.disply();
 		
 		
@@ -49,6 +43,7 @@ public class workingMain {
 		stackLink.addS(4);
 		stackLink.addS(5);
 		stackLink.disply();
+		stackLink.removeS();
 		completed =stackLink.removeS();
 		
 		if(completed==false){
