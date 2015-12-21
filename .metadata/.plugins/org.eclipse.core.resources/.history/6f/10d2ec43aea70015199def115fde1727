@@ -2,18 +2,17 @@ package oOStack;
 
 import java.util.ArrayList;
 
-public class stackUsingList  {
-	
+public class stackUsingList {
 	int top=-1;
 	ArrayList<Integer> lStack = new ArrayList<Integer>();
 	
-	public boolean pushS(int num){
+	public boolean pushIn(int num){
 		lStack.add(num);
 		top++;
 		return true;
 	}
 	
-	public boolean popS(){
+	public boolean popOut(){
 		if(lStack.isEmpty()){
 			return false;
 		}
@@ -23,7 +22,7 @@ public class stackUsingList  {
 		}
 	}
 	
-	public void displyS(){
+	public void disply(){
 		if(lStack.isEmpty()){
 			System.out.println("Arrey list is empty");
 		}

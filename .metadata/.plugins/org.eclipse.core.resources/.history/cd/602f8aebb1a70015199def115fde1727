@@ -5,8 +5,8 @@ public class workingMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		boolean completed ;
-		//stackUsingList stackI =  new stackImplementation(7);
-		stackUsingList stackI =  new stackUsingLinkList();
+		stackUsingList stackI =  new stackImplementation(7);
+		//stackUsingList stackI =  new stackUsingLinkList();
 		//stackUsingList stackI =  new stackUsingList();
 		
 		stackI.displyS();

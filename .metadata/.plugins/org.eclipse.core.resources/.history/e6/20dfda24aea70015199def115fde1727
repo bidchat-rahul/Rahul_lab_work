@@ -1,6 +1,6 @@
 package oOStack;
 
-public class stackImplementation extends stackUsingLinkList {
+public class stackImplementation {
 	private int n;
 	private int top = -1 ;
 	private int Storage[];
@@ -39,7 +39,7 @@ public class stackImplementation extends stackUsingLinkList {
 		return true;
 	}
 	
-	public void displyS(){
+	public void displyStack(){
 		System.out.print("the stack is ");
 		
 		if(top == -1){

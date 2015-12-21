@@ -5,9 +5,7 @@ public class workingMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		boolean completed ;
-		//stackUsingList stackI =  new stackImplementation(7);
-		stackUsingList stackI =  new stackUsingLinkList();
-		//stackUsingList stackI =  new stackUsingList();
+		stackImplementation stackI = new stackImplementation(7);
 		
 		stackI.displyS();
 		
@@ -28,7 +26,7 @@ public class workingMain {
 			System.out.println("Stack is empty");
 		}
 		stackI.displyS();
-		/*
+		
 		stackUsingList stackList = new stackUsingList();
 		System.out.println("-------Stack implementation using Arrey list------");
 		stackList.displyS();
@@ -57,7 +55,6 @@ public class workingMain {
 			System.out.println("Stack is empty");
 		}
 		stackLink.displyS();
-		*/
 	}
 
 }

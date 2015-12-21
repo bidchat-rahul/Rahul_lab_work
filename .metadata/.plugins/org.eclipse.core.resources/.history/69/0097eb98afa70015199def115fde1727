@@ -2,7 +2,7 @@ package oOStack;
 
 import java.util.LinkedList;
 
-public class stackUsingLinkList extends stackUsingList {
+public class stackUsingLinkList {
 	
 	LinkedList<Integer> link1 = new LinkedList<Integer>();
 
@@ -20,7 +20,7 @@ public class stackUsingLinkList extends stackUsingList {
 		}
 	}
 	
-	public void displyS (){
+	public void displyS(){
 		if(link1.isEmpty()){
 			System.out.println("link list is empty");
 		}else{

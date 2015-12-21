@@ -5,9 +5,11 @@ public class workingMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		boolean completed ;
-		//stackUsingList stackI =  new stackImplementation(7);
-		stackUsingList stackI =  new stackUsingLinkList();
-		//stackUsingList stackI =  new stackUsingList();
+		stackUsingList stackI =  new stackImplementation(7);
+		stackUsingList stackLink =  new stackUsingLinkList();
+		stackUsingList stackList =  new stackUsingList();
+		
+		//stackImplementation stackI = new stackImplementation(7);
 		
 		stackI.displyS();
 		
@@ -28,8 +30,8 @@ public class workingMain {
 			System.out.println("Stack is empty");
 		}
 		stackI.displyS();
-		/*
-		stackUsingList stackList = new stackUsingList();
+		
+		//stackUsingList stackList = new stackUsingList();
 		System.out.println("-------Stack implementation using Arrey list------");
 		stackList.displyS();
 		stackList.pushS(5);
@@ -45,7 +47,7 @@ public class workingMain {
 		stackList.displyS();
 		
 		
-		stackUsingLinkList stackLink = new stackUsingLinkList();
+		//stackUsingLinkList stackLink = new stackUsingLinkList();
 		System.out.println("-------Stack implementation using link list------");
 		stackLink.displyS();
 		stackLink.pushS(4);
@@ -57,7 +59,6 @@ public class workingMain {
 			System.out.println("Stack is empty");
 		}
 		stackLink.displyS();
-		*/
 	}
 
 }

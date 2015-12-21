@@ -1,6 +1,6 @@
 package oOStack;
 
-public class stackImplementation extends stackUsingLinkList {
+public class stackImplementation {
 	private int n;
 	private int top = -1 ;
 	private int Storage[];

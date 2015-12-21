@@ -9,6 +9,8 @@ public class workingMain {
 		stackUsingList stackI =  new stackUsingLinkList();
 		//stackUsingList stackI =  new stackUsingList();
 		
+		//stackImplementation stackI = new stackImplementation(7);
+		
 		stackI.displyS();
 		
 		stackI.pushS(4);
@@ -28,7 +30,7 @@ public class workingMain {
 			System.out.println("Stack is empty");
 		}
 		stackI.displyS();
-		/*
+		
 		stackUsingList stackList = new stackUsingList();
 		System.out.println("-------Stack implementation using Arrey list------");
 		stackList.displyS();
@@ -57,7 +59,6 @@ public class workingMain {
 			System.out.println("Stack is empty");
 		}
 		stackLink.displyS();
-		*/
 	}
 
 }

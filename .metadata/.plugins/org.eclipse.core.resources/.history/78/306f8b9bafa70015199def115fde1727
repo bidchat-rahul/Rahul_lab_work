@@ -2,8 +2,7 @@ package oOStack;
 
 import java.util.ArrayList;
 
-public class stackUsingList  {
-	
+public class stackUsingList {
 	int top=-1;
 	ArrayList<Integer> lStack = new ArrayList<Integer>();
 	
