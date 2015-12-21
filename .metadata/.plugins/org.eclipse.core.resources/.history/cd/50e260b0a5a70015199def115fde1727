@@ -33,8 +33,6 @@ public class workingMain {
 		stackList.pushIn(9);
 		stackList.disply();
 		
-		stackList.popOut();
-		stackList.disply();
 	}
 
 }

@@ -24,11 +24,6 @@ public class stackUsingList {
 	}
 	
 	public void disply(){
-		if(lStack.isEmpty()){
-			System.out.println("Arrey list is empty");
-		}
-		else
-			System.out.println(lStack);
 		
 	}
 
