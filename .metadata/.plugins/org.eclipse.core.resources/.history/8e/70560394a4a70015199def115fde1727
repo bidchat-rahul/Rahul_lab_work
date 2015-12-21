@@ -1,0 +1,11 @@
+package oOStack;
+
+import java.util.List;
+
+public class stackUsingList {
+	
+	List lStack = new List();
+	
+	
+
+}

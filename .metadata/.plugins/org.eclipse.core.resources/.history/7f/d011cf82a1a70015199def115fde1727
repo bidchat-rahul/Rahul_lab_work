@@ -1,17 +1,15 @@
 package oOStack;
 
 public class stackImplementation {
-	private int n;
+	private int n=5;
 	private int top = -1 ;
-	private int Storage[];
 		
 	public stackImplementation(int n) {
 		super();
 		this.n = n;
-		Storage = new int[n] ;
 	}
 	
-	
+	private int Storage[] = new int[n] ;
 
 	public boolean pushS(int num){
 
@@ -47,8 +45,7 @@ public class stackImplementation {
 		}
 		
 		for(int i=0;i<=top ;i++){
-			System.out.print(Storage[i] + "\t");
+			System.out.println(Storage[i] + "\t");
 		}
-		System.out.println("");
 	}
 }

@@ -4,7 +4,7 @@ public class workingMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		boolean completed ;
+		
 		stackImplementation stackI = new stackImplementation(7);
 		
 		stackI.displyStack();
@@ -16,14 +16,9 @@ public class workingMain {
 		stackI.pushS(2);
 		stackI.pushS(1);
 		stackI.pushS(9);
-		completed =stackI.pushS(9);
-		if(completed==false){
-			System.out.println("Stack is full");
-		}
 		
 		stackI.displyStack();
-		stackI.popS();
-		stackI.displyStack();
+
 	}
 
 }

@@ -18,7 +18,7 @@ public class workingMain {
 		stackI.pushS(9);
 		completed =stackI.pushS(9);
 		if(completed==false){
-			System.out.println("Stack is full");
+			System.out.println("Stack in full");
 		}
 		
 		stackI.displyStack();
