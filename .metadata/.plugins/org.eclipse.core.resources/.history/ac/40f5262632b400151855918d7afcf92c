@@ -1,0 +1,36 @@
+package problem1;
+
+public class EComsite {
+
+	public void chosePaymentMethod(String PaymentMode) {
+		// TODO Auto-generated method stub
+		
+		switch (PaymentMode) {
+		case "COD":
+			
+			break;
+			
+		case value:
+			
+			break;
+			
+		case value:
+			
+			break;
+
+		default:
+			break;
+		}
+		
+		
+	}
+
+	public void makePayment(double price) {
+		// TODO Auto-generated method stub
+		
+		
+	}
+	
+	
+
+}

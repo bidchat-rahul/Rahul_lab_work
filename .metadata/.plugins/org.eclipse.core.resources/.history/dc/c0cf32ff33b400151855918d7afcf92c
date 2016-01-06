@@ -1,0 +1,10 @@
+package problem1;
+
+public class debitCard {
+	public String payment() {
+		// TODO Auto-generated method stub
+		
+		return "creditCard";
+	}
+
+}

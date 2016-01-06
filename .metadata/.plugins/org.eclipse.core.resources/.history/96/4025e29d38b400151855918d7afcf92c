@@ -1,0 +1,10 @@
+package problem1;
+
+public class netBanking {
+	public String payment() {
+		// TODO Auto-generated method stub
+		
+		return "netBanking";
+	}
+
+}

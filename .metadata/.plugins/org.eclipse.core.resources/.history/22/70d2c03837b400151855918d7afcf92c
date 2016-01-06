@@ -1,0 +1,50 @@
+package problem1;
+//You purchase an item online, you want different payment methods such as credit card, debit card, net-banking or cash on delivery
+public class EComsite {
+
+	public String chosePaymentMethod(String PaymentMode) {
+		// TODO Auto-generated method stub
+		
+		switch (PaymentMode) {
+		case "COD":
+			cashOnDelivery cod = new cashOnDelivery();
+			return cod.payment();
+		
+			//break;
+			
+		case "creditCard":
+			creditCard cc = new creditCard();
+			return cc.payment();
+			
+			
+			//break;
+			
+		case "debitCard":
+			debitCard dc = new debitCard();
+			return dc.payment();
+			
+			//break;
+			
+		case "netBanking":
+			netBanking nb =new netBanking();
+			return nb.payment();
+			
+			//break;
+
+		default:
+			return null;
+			//break;
+		}
+		
+		
+	}
+
+	public double makePayment(double price , int qty) {
+		// TODO Auto-generated method stub
+		
+		return price*qty;
+	}
+	
+	
+
+}

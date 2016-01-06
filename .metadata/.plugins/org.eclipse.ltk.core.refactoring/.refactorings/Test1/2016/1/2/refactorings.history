@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private String commonPs(String PaymentMode)&apos; from &apos;problem1.EComsite.chosePaymentMethod()&apos; to &apos;problem1.EComsite&apos;&#x0A;- Original project: &apos;Test1&apos;&#x0A;- Method name: &apos;commonPs&apos;&#x0A;- Destination type: &apos;problem1.EComsite&apos;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;commonPs&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;problem1{EComsite.java" name="commonPs" replace="false" selection="270 474" stamp="1452058622873" version="1.0" visibility="2"/>
+</session>
