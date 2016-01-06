@@ -3,4 +3,10 @@
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="elevatorPkg.ElevatorControler"/>
+<fullyQualifiedTypeName name="oOStack.stackImplementation"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="oOStack.stackUsingList"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="oOStack.stackUsingLinkList"/>
 </qualifiedTypeNameHistroy>
