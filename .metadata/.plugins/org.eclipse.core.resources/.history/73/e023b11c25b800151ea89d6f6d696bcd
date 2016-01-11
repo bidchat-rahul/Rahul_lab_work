@@ -1,0 +1,50 @@
+package ShopingPkg;
+
+import problem1.cashOnDelivery;
+import problem1.creditCard;
+import problem1.debitCard;
+import problem1.netBanking;
+
+public class EComsite {
+	paymentMethod PayMethod;
+	
+	public double makePayment(double price, int qty) {
+		// TODO Auto-generated method stub
+		PayMethod.makePayment(price, qty);
+		return 0;
+	}
+
+	public void chosePaymentMethod(String paymentMode) {
+		// TODO Auto-generated method stub
+		switch (paymentMode) {
+		case "COD":
+			PayMethod = new cashOnDelivery();
+	
+			break;
+			
+		case "creditCard":
+			PayMethod = new creditCard();
+			
+			break;
+			
+		case "debitCard":
+			PayMethod = new debitCard();
+			return dc.varification();
+			
+			break;
+			
+		case "netBanking":
+			PayMethod =new netBanking();
+		
+			break;
+
+		default:
+			return null;
+			break;
+		}
+
+	}
+
+	
+	
+}

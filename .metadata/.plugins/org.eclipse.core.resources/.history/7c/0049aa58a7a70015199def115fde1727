@@ -1,9 +1,0 @@
-package oOStack;
-
-import java.util.LinkedList;
-
-public class stackUsingLinkList {
-	
-	LinkedList<e> link1 = new LinkedList<Integer>();
-
-}

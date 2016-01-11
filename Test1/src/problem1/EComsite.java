@@ -2,30 +2,35 @@ package problem1;
 //You purchase an item online, you want different payment methods such as credit card, debit card, net-banking or cash on delivery
 public class EComsite {
 
+	public String PaymentMode;
+	
 	private String commonPs(String PaymentMode) {
+		this.PaymentMode = PaymentMode;
+		
 		switch (PaymentMode) {
 		case "COD":
 			cashOnDelivery cod = new cashOnDelivery();
-			return cod.payment();
+			
+			return cod.varification();
 		
 			//break;
 			
 		case "creditCard":
 			creditCard cc = new creditCard();
-			return cc.payment();
+			return cc.varification();
 			
 			
 			//break;
 			
 		case "debitCard":
 			debitCard dc = new debitCard();
-			return dc.payment();
+			return dc.varification();
 			
 			//break;
 			
 		case "netBanking":
 			netBanking nb =new netBanking();
-			return nb.payment();
+			return nb.varification();
 			
 			//break;
 
@@ -45,7 +50,7 @@ public class EComsite {
 	}
 
 
-	public double makePayment(double price , int qty , String PaymentMode ) {
+	public double makePayment(double price , int qty ) {
 		// TODO Auto-generated method stub
 		double totalCost;
 		boolean status=false;

@@ -1,0 +1,8 @@
+package ShopingPkg;
+
+public interface paymentMethod {
+
+	public double makePayment(double price, int qty);
+	public void chosePaymentMethod(String paymentMode);
+	
+}

@@ -40,7 +40,7 @@ public class shopping {
 
 			//X specifies the chosen method
 						
-			Success = flipKart.makePayment(item1.getPrice(),item1.getQty(),PaymentMode); //actual process of payment by connecting to the choosen method 
+			Success = flipKart.makePayment(item1.getPrice(),item1.getQty()); //actual process of payment by connecting to the choosen method 
 
 			if(Success == -1)
 				System.out.println("Payment Failed throught "+PaymentMode);

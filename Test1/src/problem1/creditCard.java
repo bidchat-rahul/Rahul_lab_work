@@ -2,7 +2,7 @@ package problem1;
 
 public class creditCard {
 
-	public String payment() {
+	public String varification() {
 		// TODO Auto-generated method stub
 		
 		return "creditCard";

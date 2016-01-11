@@ -1,0 +1,19 @@
+package ShopingPkg;
+
+public class EComsite {
+	paymentMethod PayMethod;
+	
+	public double makePayment(double price, int qty) {
+		// TODO Auto-generated method stub
+		PayMethod.makePayment(price, qty);
+		return 0;
+	}
+
+	public void chosePaymentMethod(String paymentMode) {
+		// TODO Auto-generated method stub
+		PayMethod = null;
+	}
+
+	
+	
+}

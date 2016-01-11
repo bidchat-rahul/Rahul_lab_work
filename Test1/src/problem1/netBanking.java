@@ -1,7 +1,7 @@
 package problem1;
 
 public class netBanking {
-	public String payment() {
+	public String varification() {
 		// TODO Auto-generated method stub
 		
 		return "netBanking";

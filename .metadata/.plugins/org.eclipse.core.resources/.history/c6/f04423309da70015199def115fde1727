@@ -1,7 +1,0 @@
-package oOStack;
-
-public class stackImplementation {
-	
-	int Storage[] ;
-
-}

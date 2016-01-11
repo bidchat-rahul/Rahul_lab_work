@@ -1,0 +1,5 @@
+package ShopingPkg;
+
+public class cashOnDelivary implements paymentMethod  {
+
+}
