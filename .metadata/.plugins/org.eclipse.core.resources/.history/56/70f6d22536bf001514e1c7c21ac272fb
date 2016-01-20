@@ -1,0 +1,26 @@
+
+public class Car {
+	private int EngineNo,ChassisNo;
+	private double ChassisPrice,EnginePrice;
+	
+	public Car(Engine engine,Chassis chassis) 
+	{
+
+		ChassisPrice= chassis.getPrice();
+		EnginePrice=engine.getPrice();
+		
+	}
+
+
+	public double totalPrice() {
+		// TODO Auto-generated method stub
+        double totalprice;
+		
+		totalprice = EnginePrice+ChassisPrice;
+		
+		return totalprice;
+	}
+	
+	
+	
+}

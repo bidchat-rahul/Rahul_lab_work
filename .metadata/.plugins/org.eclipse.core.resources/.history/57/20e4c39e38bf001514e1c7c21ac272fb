@@ -1,0 +1,14 @@
+package incomeTaxCal;
+
+public class calIncomeTax {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double payTax;
+		incomeTax tax = new calTax();
+		
+		payTax=tax.calculate(50000.00);
+
+	}
+
+}

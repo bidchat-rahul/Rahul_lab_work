@@ -1,0 +1,7 @@
+package incomeTaxCal;
+
+public interface incomeTax {
+
+	void calculate(double amt);
+
+}

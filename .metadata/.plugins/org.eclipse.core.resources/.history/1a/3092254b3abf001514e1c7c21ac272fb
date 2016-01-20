@@ -1,0 +1,5 @@
+package incomeTaxCal;
+
+public interface incomeTaxImp extends incomeTax {
+
+}
