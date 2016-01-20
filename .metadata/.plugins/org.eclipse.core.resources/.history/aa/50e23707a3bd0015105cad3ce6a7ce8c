@@ -1,0 +1,16 @@
+package car;
+
+public class carTotalCost {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Car car;
+		
+		Part p1 =new Part("name1",400);
+		Subsystem sub1 = new Subsystem("engine");
+		
+
+	}
+
+}

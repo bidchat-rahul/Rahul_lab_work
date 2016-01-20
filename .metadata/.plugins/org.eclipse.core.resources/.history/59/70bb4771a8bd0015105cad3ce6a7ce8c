@@ -1,0 +1,25 @@
+package car;
+
+import java.util.ArrayList;
+
+public class Subsystem implements Car{
+	String name;
+	double totalCost;
+
+	ArrayList list = new ArrayList();
+	
+	public Subsystem(String SubName) {
+		// TODO Auto-generated constructor stub
+		this.name=SubName;
+		
+	}
+
+	@Override
+	public double getPrice() {
+		// TODO Auto-generated method stub
+		return totalCost;
+	}
+
+	
+	
+}

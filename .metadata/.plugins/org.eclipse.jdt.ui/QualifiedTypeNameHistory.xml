@@ -5,8 +5,10 @@
 <fullyQualifiedTypeName name="elevatorPkg.ElevatorControler"/>
 <fullyQualifiedTypeName name="oOStack.stackImplementation"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="oOStack.stackUsingList"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="oOStack.stackUsingLinkList"/>
+<fullyQualifiedTypeName name="ShopingPkg.paymentMethod"/>
+<fullyQualifiedTypeName name="car.Car"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

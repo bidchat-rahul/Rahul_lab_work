@@ -31,7 +31,7 @@ public class shoppingPayment {
 			
 		else{
 			System.out.println("The Total cost is "+Success +" of item "+item1.getName());
-			System.out.println("got done throught "+PaymentMode);
+			System.out.println("payment got done throught "+PaymentMode);
 		}
 		//similarly you can show different payment method for different items…
 

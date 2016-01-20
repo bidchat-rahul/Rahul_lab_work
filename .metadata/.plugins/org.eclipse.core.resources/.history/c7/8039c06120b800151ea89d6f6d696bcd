@@ -1,6 +1,0 @@
-package ShopingPkg;
-
-public interface paymentMethod {
-
-	
-}

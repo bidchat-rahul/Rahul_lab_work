@@ -1,9 +1,0 @@
-package ShopingPkg;
-
-public class Item {
-	String Name;
-	double Price;
-	int Qty;
-	
-
-}

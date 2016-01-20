@@ -1,0 +1,33 @@
+package car;
+
+public class Part {
+	
+	String Name;
+	double price;
+
+	public Part(String partName, int price) {
+		// TODO Auto-generated constructor stub
+		this.price = price;
+		this.Name=partName;
+	}
+
+	public String getName() {
+		return Name;
+	}
+
+	public void setName(String name) {
+		Name = name;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,38 @@
+package car;
+
+import java.util.ArrayList;
+
+public class Subsystem implements Car{
+	String name;
+	double totalCost;
+
+	private ArrayList<Part> listPart = new ArrayList<Part>();
+	
+	public Subsystem(String SubName) {
+		// TODO Auto-generated constructor stub
+		this.name=SubName;
+		
+	}
+
+	@Override
+	public double getPrice() {
+		// TODO Auto-generated method stub
+		for(Part temPart:listPart){
+			this.totalCost +=temPart.getPrice();
+			System.out.println("the price is "+this.totalCost);
+		}
+		return totalCost;
+	}
+
+	public void aadPart(){
+		listPart.add(new Part("test1",29.00));
+		listPart.add(new Part("test2",80.00));
+		listPart.add(new Part("test3",75.00));
+		listPart.add(new Part("test4",50.50));
+		listPart.add(new Part("test5",100.50));
+		listPart.add(new Part("test6",30.00));
+		
+	}
+	
+	
+}
