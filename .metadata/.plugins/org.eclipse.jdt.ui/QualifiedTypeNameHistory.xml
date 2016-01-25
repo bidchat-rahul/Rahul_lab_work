@@ -11,4 +11,6 @@
 <fullyQualifiedTypeName name="ShopingPkg.paymentMethod"/>
 <fullyQualifiedTypeName name="car.Car"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="incomeTaxCal.incomeTax"/>
+<fullyQualifiedTypeName name="incomeTaxCal.calTax"/>
 </qualifiedTypeNameHistroy>

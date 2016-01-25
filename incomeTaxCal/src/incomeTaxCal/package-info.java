@@ -7,7 +7,11 @@
  */
 package incomeTaxCal;
 
-
+/*
+ *  adapter(class and object) 
+ *  
+ */
+ 
 /*
 Imagine that you have a existing  application that does financial accounitng. 
 This application depends on another application that provides income tax calculation. 

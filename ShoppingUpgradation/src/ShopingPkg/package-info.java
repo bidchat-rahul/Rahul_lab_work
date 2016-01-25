@@ -6,7 +6,9 @@
  *
  */
 package ShopingPkg;
-
+/**
+ * Strategy pattern
+ */
 /*
 //problem 1. Duration - 1 hour. submit using your roll number 
 
