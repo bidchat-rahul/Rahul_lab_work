@@ -38,4 +38,10 @@ tv.volumeUp();
 tv.volumeDown();
 	}
 
+	@Override
+	public void chennel(int No) {
+		// TODO Auto-generated method stub
+tv.chennel(No);		
+	}
+
 }

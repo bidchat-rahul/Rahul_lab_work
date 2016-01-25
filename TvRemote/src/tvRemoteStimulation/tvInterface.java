@@ -8,4 +8,5 @@ public interface tvInterface {
 	public void chennelDown();
 	public void volumeUp();
 	public void volumeDown();
+	public void chennel(int No);
 }
