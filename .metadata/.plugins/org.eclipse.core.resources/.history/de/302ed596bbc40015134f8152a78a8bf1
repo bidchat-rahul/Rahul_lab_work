@@ -1,0 +1,18 @@
+package pairTest;
+
+public class constrctorTest {
+ int a ,b;
+ 	public constrctorTest(int a) {
+		this.a = a;
+	}
+
+
+
+	public constrctorTest(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	
+
+}
