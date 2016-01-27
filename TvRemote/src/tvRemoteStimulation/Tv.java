@@ -1,16 +1,30 @@
 package tvRemoteStimulation;
 
 public class Tv {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		tvControler tv1 = new tvControler();
-		tvRemote tvrmot = new tvRemote();
-		
-		tv1.powerOn();
-		tvrmot.powerOff();
-
+	private int volume = 5;
+	private int chennel = 1;
+	private boolean state = false;
+	
+	public boolean isState() {
+		return state;
 	}
+	public void setState(boolean state) {
+		this.state = state;
+	}
+	public int getVolume() {
+		return volume;
+	}
+	public void setVolume(int volume) {
+		this.volume = volume;
+	}
+	public int getChennel() {
+		return chennel;
+	}
+	public void setChennel(int chennel) {
+		this.chennel = chennel;
+	}
+	
+	
+	
 
 }

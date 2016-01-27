@@ -1,0 +1,23 @@
+package tvRemoteStimulation;
+
+public class Tv {
+	private int volume = 5;
+	private int chennel = 1;
+	
+	public int getVolume() {
+		return volume;
+	}
+	public void setVolume(int volume) {
+		this.volume = volume;
+	}
+	public int getChennel() {
+		return chennel;
+	}
+	public void setChennel(int chennel) {
+		this.chennel = chennel;
+	}
+	
+	
+	
+
+}

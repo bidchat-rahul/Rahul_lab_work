@@ -1,0 +1,7 @@
+package tvRemoteStimulation;
+
+public class Tv {
+	int volume = 5;
+	int chennel = 1;
+
+}

@@ -1,0 +1,46 @@
+package tvRemoteStimulation;
+
+public class tvRemote implements tvInterface {
+	@Override
+	public void powerOn(tvControler tv) {
+		// TODO Auto-generated method stub
+tv.powerOn();
+	}
+
+	@Override
+	public void powerOff(tvControler tv) {
+		// TODO Auto-generated method stub
+tv.powerOff();
+	}
+
+	@Override
+	public void chennelUp(tvControler tv) {
+		// TODO Auto-generated method stub
+tv.chennelUp();
+	}
+
+	@Override
+	public void chennelDown(tvControler tv) {
+		// TODO Auto-generated method stub
+tv.chennelDown();
+	}
+
+	@Override
+	public void volumeUp(tvControler tv) {
+		// TODO Auto-generated method stub
+tv.volumeUp();
+	}
+
+	@Override
+	public void volumeDown(tvControler tv) {
+		// TODO Auto-generated method stub
+tv.volumeDown();
+	}
+
+	@Override
+	public void chennel(tvControler tv) {
+		// TODO Auto-generated method stub
+tv.chennel(tv);		
+	}
+
+}
