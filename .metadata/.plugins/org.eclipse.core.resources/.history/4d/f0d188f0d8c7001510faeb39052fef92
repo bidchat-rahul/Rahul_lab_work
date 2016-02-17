@@ -1,0 +1,29 @@
+package palindromeNString;
+
+import java.util.ArrayList;
+
+public class StringFunction {
+	ArrayList<String> palindromeWords;
+	public ArrayList<String> IsPalindrome(String sWord){
+		//palindromeWords = new String[sWord.length()];
+		String temp,temp2,temp3;
+		temp=sWord;
+		
+		for(int i=1;i<= temp.length();i++){
+			
+			temp2 =(String) temp.subSequence(0, i);
+			StringBuilder temp1 = new StringBuilder();
+			temp1.append(temp2);
+			temp3=temp1.reverse().toString();
+			
+			if(temp2.toString().equals(temp3) ){
+				palindromeWords.add(temp2);
+			}
+			System.out.println("tem2 "+temp2+" tem3 "+temp3);
+			
+			
+		}
+		return palindromeWords;
+	}
+
+}

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="elevatorPkg.ElevatorControler"/>
 <fullyQualifiedTypeName name="oOStack.stackImplementation"/>
 <fullyQualifiedTypeName name="java.util.List"/>
@@ -10,8 +9,12 @@
 <fullyQualifiedTypeName name="oOStack.stackUsingLinkList"/>
 <fullyQualifiedTypeName name="ShopingPkg.paymentMethod"/>
 <fullyQualifiedTypeName name="car.Car"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="incomeTaxCal.incomeTax"/>
 <fullyQualifiedTypeName name="incomeTaxCal.calTax"/>
 <fullyQualifiedTypeName name="tvRemoteStimulation.tvControler"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="palindromeNString.StringFunction"/>
+<fullyQualifiedTypeName name="javax.sound.sampled.ReverbType"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

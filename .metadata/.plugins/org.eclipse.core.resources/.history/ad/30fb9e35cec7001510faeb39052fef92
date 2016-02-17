@@ -1,0 +1,45 @@
+package palindromeNString;
+import javax.sound.sampled.ReverbType;
+
+public class StringFunction {
+	String[] palindromeWords;
+	public String[] IsPalindrome(String sWord){
+		String temp=sWord;
+		char[] temp2 = new char[temp.length()] ;
+		char[] temp3 = new char[temp.length()] ;
+		int k=0,l=0;
+
+		StringBuilder temp1 = new StringBuilder();
+		
+		
+		for(int i=0;i< temp.length();i++){
+			temp2[i]=temp.charAt(i);
+			//System.out.println(temp2);
+			
+			if(i>=1){
+				
+				for(int j=i;j>0;j--){
+					
+					temp3[l]=temp2[j];
+					l++;
+				}
+				temp1.append(temp2);
+				//temp3 = temp1.reverse().toString();
+				System.out.println(temp3);
+				System.out.println("reverce " + (temp1.toString()) );
+				
+				if(temp2.toString().equals(temp3) ){
+					palindromeWords[k] = temp2.toString();
+					k++;
+				}
+				}
+			}
+	
+	
+		
+		
+		
+		return palindromeWords;
+	}
+
+}

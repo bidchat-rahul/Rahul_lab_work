@@ -1,0 +1,30 @@
+package palindromeNString;
+
+import java.util.Scanner;
+
+public class stringPalindrome {
+
+	private static Scanner scr;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String words;
+		String[] plidromeWds ;
+		scr = new Scanner(System.in);
+		System.out.println("Enter The String To find Palindrome ");
+		words = scr.nextLine();
+		StringFunction sf = new StringFunction();
+		plidromeWds=sf.IsPalindrome(words);
+		
+		if(plidromeWds.length == -1){
+			System.out.println("error");
+		}
+		//rSystem.out.println(plidromeWds.length);
+		/*
+		for(int i=0;i<=plidromeWds.length;i++){
+			System.out.println(plidromeWds[i]);
+		}
+*/
+	}
+
+}

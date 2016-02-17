@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;palindromeNString.stringPalindrome.main().scr&apos; in &apos;palindromeNString.stringPalindrome.main()&apos; to field&#x0A;- Original project: &apos;palindromeNString&apos;&#x0A;- Original element: &apos;palindromeNString.stringPalindrome.main().scr&apos;&#x0A;- Field name: &apos;scr&apos;&#x0A;- Initialize field in method&#x0A;- Declared visibility: &apos;private&apos;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;scr&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;palindromeNString{stringPalindrome.java" name="scr" selection="218 28" stamp="1454213722364" static="true" version="1.0" visibility="2"/>
+</session>

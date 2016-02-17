@@ -1,0 +1,19 @@
+package palindromeNString;
+
+import java.util.Scanner;
+
+public class stringPalindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String words ;
+		Scanner scr = new Scanner(System.in);
+		System.out.println("Enter The String To find Palindrome ");
+		words = scr.nextLine();
+		StringFunction sf = new StringFunction();
+		sf.palindrome(words);
+		
+
+	}
+
+}

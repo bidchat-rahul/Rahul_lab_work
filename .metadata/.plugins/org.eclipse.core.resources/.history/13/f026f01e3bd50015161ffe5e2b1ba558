@@ -1,0 +1,17 @@
+package junitTest;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class amtTest {
+
+	@Test
+	public void test() {
+		simpleInterest si = new simpleInterest();
+		
+		assertEquals(50, si.interest(5000, 10));
+		//fail("Not yet implemented");
+	}
+
+}
