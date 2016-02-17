@@ -17,4 +17,5 @@
 <fullyQualifiedTypeName name="javax.sound.sampled.ReverbType"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="junitTest.simpleInterest"/>
 </qualifiedTypeNameHistroy>

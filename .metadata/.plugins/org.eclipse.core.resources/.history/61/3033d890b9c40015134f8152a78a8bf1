@@ -1,8 +1,0 @@
-package pairTest;
-
-public class constrctorTest {
- int a ,b,c;
- a=b=c=null;
-	
-
-}
