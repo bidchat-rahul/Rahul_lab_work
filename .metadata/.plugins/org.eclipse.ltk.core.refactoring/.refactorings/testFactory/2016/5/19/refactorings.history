@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;testFactory.PhMessage&apos; to &apos;hikeMessage&apos;&#x0A;- Original project: &apos;testFactory&apos;&#x0A;- Original element: &apos;testFactory.PhMessage&apos;&#x0A;- Renamed element: &apos;testFactory.hikeMessage&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PhMessage&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;testFactory{PhMessage.java[PhMessage" matchStrategy="1" name="hikeMessage" qualified="false" references="true" similarDeclarations="false" stamp="1462611017755" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,12 @@
+package testFactory;
+
+
+public class whatsApp implements Message {
+
+	@Override
+	public void sendMessage(String phnum, String MessageContent) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

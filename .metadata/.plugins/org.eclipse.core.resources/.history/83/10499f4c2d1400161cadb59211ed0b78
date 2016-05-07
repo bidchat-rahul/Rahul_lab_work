@@ -1,0 +1,7 @@
+package testFactory;
+
+import factoryMethod.Shape;
+
+public class whatsApp implements Message {
+
+}

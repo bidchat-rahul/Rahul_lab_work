@@ -1,0 +1,24 @@
+package testFactory;
+
+import factoryMethod.Shape;
+import factoryMethod.ShapeFactory;
+
+public class client {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		factory factory = new factory(); //method used by client to instantiate new object
+		
+		Message msg1 = factory.getMessage("whatsapp");
+		
+		msg1.sendMessage("9087654312", "Meet me urgently");
+		
+		Message msg2 = factory.getMessage("phone");
+		
+		msg1.sendMessage("9087654312", "Meet me urgently");
+		
+		
+	}
+	
+}
