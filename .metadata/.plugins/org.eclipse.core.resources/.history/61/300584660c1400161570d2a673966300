@@ -1,0 +1,79 @@
+/**
+ * 
+ */
+/**
+ * @author rahul
+ *
+ */
+package factoryMethod;
+
+public interface Shape {
+	void draw();
+}
+
+
+public class Circle implements Shape{
+	
+	public void draw() {
+		System.out.println("Inside Circle::draw() method.");	
+	}
+}
+
+
+public class Rectangle implements Shape {
+	
+	public void draw() {
+		System.out.println("Inside Rectangle::draw() method.");	
+	}
+}
+
+
+public class Square implements Shape{
+	
+	public void draw() {
+		
+		System.out.println("Inside Square::draw() method.");	
+	}
+}
+
+public class ShapeFactory {
+
+	public Shape getShape(String shapeType) {
+		if(shapeType == null)
+		{
+			return null;
+		}
+		
+		if(shapeType.equalsIgnoreCase("Square")){
+			return new Square();
+		}
+		
+		if(shapeType.equalsIgnoreCase("Rectangle")){
+			return new Rectangle();
+		}
+		
+		if(shapeType.equalsIgnoreCase("Circle")){
+			return new Circle();
+		}
+		
+		return null;
+	}
+}
+
+public class FactoryDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ShapeFactory shapeFactory = new ShapeFactory(); //method used by client to instantiate new object
+		
+		Shape shape1 = shapeFactory.getShape("Circle");
+		shape1.draw();
+		
+		Shape shape2 = shapeFactory.getShape("Rectangle");
+		shape2.draw();
+		
+		Shape shape3 = shapeFactory.getShape("Square");
+		shape3.draw();	
+		
+	}
+}
