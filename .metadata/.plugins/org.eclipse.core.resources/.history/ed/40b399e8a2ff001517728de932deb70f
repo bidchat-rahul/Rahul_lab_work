@@ -1,0 +1,18 @@
+package observerPatten;
+
+public class Mainclass {
+
+	public static void main(String[] args)
+	{
+		MailBox mailbox1 = new MailBox();
+		PostOffice office = new PostOffice("Panjim Post office");
+		PostOffice office1 = new PostOffice("Panjim Post office");
+		
+		office.AddObserver(mailbox1);
+		office1.AddObserver(mailbox1);
+		office.newMail();
+		office1.newMail();
+		office.RemoveObserver(mailbox1);
+		office1.RemoveObserver(mailbox1);
+	}
+}

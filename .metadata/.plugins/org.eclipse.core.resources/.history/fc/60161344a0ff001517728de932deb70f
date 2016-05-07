@@ -1,0 +1,5 @@
+package observerPatten;
+
+public class Observer {
+
+}
