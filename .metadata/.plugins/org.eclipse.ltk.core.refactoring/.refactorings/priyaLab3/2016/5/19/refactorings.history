@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;observerPatten&apos; to &apos;semExam/src/semExam&apos;&#x0A;- Original project: &apos;priyaLab3&apos;&#x0A;- Destination element: &apos;semExam/src/semExam&apos;&#x0A;- Original element: &apos;priyaLab3/src/observerPatten&apos;" description="Copy package" destination="=semExam/src&lt;semExam" element1="/src&lt;observerPatten" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1462615272525" version="1.0"/>
+</session>

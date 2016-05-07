@@ -1,0 +1,19 @@
+package semExam;
+
+public class client implements Observer {
+	String result;
+	
+	public void Update(String result)
+	{
+		System.out.println("result update!!!");
+		System.out.println(result);
+	}
+	
+	public int SendResult(String result)
+	{
+		System.out.println("send latest result!!!");
+		return result;
+	}
+	
+
+}

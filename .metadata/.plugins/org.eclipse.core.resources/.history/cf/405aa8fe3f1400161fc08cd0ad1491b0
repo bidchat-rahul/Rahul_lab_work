@@ -1,0 +1,26 @@
+package semExam;
+
+public class Mainclass {
+
+	public static void main(String[] args)
+	{
+		Server s1 = new Server("Panajim-counter");
+		client counter1 = new client();
+		client counter2 = new client();
+		client counter3 = new client();
+		
+		s1.setResult(400);
+		
+		s1.AddObserver(counter1);
+		s1.AddObserver(counter2);
+		s1.setResult(counter1.SendResult(300));
+		s1.AddObserver(counter3);
+		
+		
+		s1.updateResult();
+		s1.RemoveObserver(counter1);
+		
+		
+
+	}
+}

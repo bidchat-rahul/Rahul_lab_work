@@ -1,0 +1,11 @@
+package semExam;
+
+public class client implements Observer {
+	String Address;
+	
+	public void Update()
+	{
+		System.out.println("New Mail!!!");
+	}
+
+}

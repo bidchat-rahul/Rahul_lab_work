@@ -1,0 +1,29 @@
+package semExam;
+
+public class Mainclass {
+
+	public static void main(String[] args)
+	{
+		Server s1 = new Server("Panajim-counter");
+		client counter1 = new client("margao");
+		client counter2 = new client("mapusa");
+		client counter3 = new client("phoda");
+		
+		s1.setResult(400); 
+		s1.AddObserver(counter1); //adds the observer counter1 
+		s1.AddObserver(counter2);
+		s1.AddObserver(counter3);
+		s1.updateResult();
+		
+		s1.setResult(counter1.SendResult(500),counter1);
+		
+		
+		s1.RemoveObserver(counter1);
+		s1.updateResult();
+		
+		s1.setResult(counter2.SendResult(600),counter1);
+		s1.updateResult();
+		
+
+	}
+}
