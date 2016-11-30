@@ -73,8 +73,6 @@ public class dbConnection {
 		rs = oc.exicutionSelect(con, query);
 		oc.displayQueryResult(rs);
 		oc.close(con);
-		
-
 
 	}
 

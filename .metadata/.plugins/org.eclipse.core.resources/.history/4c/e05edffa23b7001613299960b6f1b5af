@@ -1,0 +1,9 @@
+package compressionData;
+
+public interface InterfaceCompress {
+	
+	public void compress(String str);
+	public void display();
+	public void unCompress();
+
+}

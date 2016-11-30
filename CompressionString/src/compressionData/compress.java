@@ -5,29 +5,45 @@ import java.util.LinkedHashMap;
 import java.util.List;
 
 
-class compressString{
+class compressString implements InterfaceCompress{
 	int TempListSize=0;
 	int freq=1;
-	LinkedHashMap<Character, Integer> compressStr  = new LinkedHashMap<>();
+	char colon = ':';
+	char coma = ',';
+	StringBuilder compressStr= new StringBuilder();
 	
 	public void compress(String str){
 	
 		for(int i=0;i<(str.length()-1);i++){
 			if(str.charAt(i) == str.charAt(i+1)){
-				//compressStr.entrySet();
+				freq++;
 				
 			}else{
-				//compressStr.put(str.charAt(i), 1);
+				compressStr.append(str.charAt(i));
+				compressStr.append(colon);
+				compressStr.append(freq);
+				compressStr.append(coma);
+				freq=1;
 			}
-			
-		
 		}
 		
-		System.out.print(compressStr);
+		if(str.charAt(str.length()-2) != str.charAt(str.length()-1)){
+			compressStr.append(str.charAt(str.length()-1));
+			compressStr.append(colon);
+			compressStr.append('1');
+		}
+	}
+	
+	public void display(){
+		System.out.print(compressStr.toString());
+	}
+	
+	public void unCompress(){
+		
 	}
 }
 
-class simpleCompression{
+class simpleCompression implements InterfaceCompress{
 	List<Character> termsArr = new ArrayList<Character>() ;
 	List<Integer> freqArr = new ArrayList<Integer>();
 	int strLenth=0;
@@ -53,7 +69,7 @@ class simpleCompression{
 		}
 	}
 	
-	public void disply(){
+	public void display(){
 		for(int i=0;i<termsArr.size();i++){
 			System.out.println(termsArr.get(i)+" -> "+freqArr.get(i));
 		}
@@ -74,10 +90,16 @@ public class compress {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		simpleCompression simpleUsingArr = new simpleCompression();
+		InterfaceCompress comp = new compressString();
+		InterfaceCompress simpleUsingArr = new simpleCompression();
 		simpleUsingArr.compress("1112323334445");
-		simpleUsingArr.disply();
+		simpleUsingArr.display();
 		simpleUsingArr.unCompress();
+		
+		System.out.println("\nUsing diferent way ");
+		comp.compress("1112323334445");
+		comp.display();
+		
 	}
 
 }
