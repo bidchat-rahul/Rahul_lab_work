@@ -1,5 +1,0 @@
-package testFactory;
-
-public interface Message {
-
-}

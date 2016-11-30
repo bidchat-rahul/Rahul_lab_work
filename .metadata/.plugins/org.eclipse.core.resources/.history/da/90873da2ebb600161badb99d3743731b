@@ -1,0 +1,13 @@
+package stringOperations;
+
+public class StringBuilderExploring {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		StringBuilder strBuilder = new StringBuilder();
+		System.out.println("Value of strBuilder "+strBuilder.append("Rahul123"));
+		System.out.println("Value of strBuilder "+strBuilder.append("Rahul123"));
+	}
+
+}

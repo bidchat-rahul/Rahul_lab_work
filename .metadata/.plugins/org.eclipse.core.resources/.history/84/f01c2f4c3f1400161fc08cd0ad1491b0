@@ -1,6 +1,0 @@
-package semExam;
-
-public interface Observer {
-
-	public void Update(String result);
-}
