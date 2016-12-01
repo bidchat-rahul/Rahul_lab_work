@@ -1,0 +1,20 @@
+package freeThinkAssignment;
+
+import java.util.ArrayList;
+
+public class rest implements LocationUsr {
+
+	
+	@Override
+	public ArrayList<String> getResturentNames() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	@Override
+	public void addResturent(LocationAtData newRecourd) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

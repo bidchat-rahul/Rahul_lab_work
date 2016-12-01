@@ -1,0 +1,24 @@
+package freeThinkAssignment;
+
+import java.util.Scanner;
+
+public class MainApi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner readInput = new Scanner(System.in);
+		int userChoice;
+		System.out.println("Select the food Location");
+		System.out.println("\n1 panajim\n2 mapusa\n3 others");
+		userChoice = readInput.nextInt();
+		
+		LocationUsr loc;
+		
+		
+		
+		
+
+	}
+
+}

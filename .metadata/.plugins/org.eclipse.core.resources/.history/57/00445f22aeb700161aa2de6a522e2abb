@@ -1,0 +1,31 @@
+package freeThinkAssignment;
+
+import java.util.ArrayList;
+
+public class panajim implements LocationUsr {
+	
+	ArrayList<LocationAtData> PanajimAr = new ArrayList<>();
+
+	@Override
+	public ArrayList<String> getResturentNames() {
+		// TODO Auto-generated method stub
+		
+		ArrayList<String> tempNames = new ArrayList<>();
+		
+		for(int i=0;i<PanajimAr.size();i++){
+			tempNames.add(PanajimAr.get(i).getNames());
+		}
+		
+		return tempNames;
+	}
+
+	@Override
+	public void addResturent(LocationAtData newRecourd) {
+		// TODO Auto-generated method stub
+		PanajimAr.add(newRecourd);
+		
+	}
+	
+	
+
+}

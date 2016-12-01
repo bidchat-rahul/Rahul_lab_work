@@ -84,6 +84,11 @@ class simpleCompression implements InterfaceCompress{
 		}
 		
 	}
+	
+	public void setDataToUncompress(ArrayList<Character> termsArr, ArrayList<Integer> frequency ){
+		this.termsArr = termsArr ;
+		freqArr = frequency;
+	}
 }
 
 public class compress {

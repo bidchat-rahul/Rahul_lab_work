@@ -1,0 +1,5 @@
+package freeThinkAssignment;
+
+public interface LocationUsr {
+
+}

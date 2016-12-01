@@ -1,0 +1,9 @@
+package freeThinkAssignment;
+
+import java.util.ArrayList;
+
+public class LocationAtData {
+	
+	ArrayList<String> names;
+
+}

@@ -1,0 +1,54 @@
+package freeThinkAssignment;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class MainApi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner readInput = new Scanner(System.in);
+		int userChoice;
+		System.out.println("Select the food Location");
+		System.out.println("\n1 panajim\n2 mapusa\n3 others");
+		userChoice = readInput.nextInt();
+		
+		LocationUsr loc;
+		
+		switch(userChoice){
+		case 1:loc = new panajim();
+		
+		break;
+		case 2: loc = new mapusa();
+		break;
+		
+		default:loc = new rest();
+		break;
+		}
+		
+		ArrayList<String> staff = new ArrayList<>();
+		staff.add("Rahul");
+		staff.add("alister");
+		
+		String  names = "ABC";
+		
+		
+		ArrayList<String> crusis = new ArrayList<>();
+		crusis.add("panjabi");
+		crusis.add("gujrathi");crusis.add("marathi");crusis.add("chinise");
+		
+		
+		int review = 4;
+		LocationAtData l1 = new LocationAtData(names, staff, crusis, review);
+		LocationAtData l2 = new LocationAtData(names, staff, crusis, review);
+		
+		loc.addResturent(l1);
+		loc.addResturent(l2);
+		
+		ArrayList<String> resNames = loc.getResturentNames();
+		
+		System.out.println("The locations are "+resNames);
+
+	}
+}
